@@ -1,0 +1,17 @@
+{
+  "name": "PokerTracker Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-azuretools.vscode-containers", 
+        "ms-dotnettools.csdevkit",
+        "github.copilot-chat"
+      ]
+    }
+  }
+}

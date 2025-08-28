@@ -1,0 +1,38 @@
+## .NET / C# ##
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.psess
+TestResults/
+.vscode/
+
+## ASP.NET
+appsettings.*.json
+secrets.json
+
+## Rider
+.idea/
+*.sln.iml
+
+## Docker
+docker-compose.override.yml
+.env
+postgres-data/
+
+## Codespaces / DevContainers
+.devcontainer/devcontainer.env
+.vscode-remote.json
+.vscode-server/
+
+## OS Files
+.DS_Store
+Thumbs.db
